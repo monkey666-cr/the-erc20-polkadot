@@ -1,4 +1,4 @@
-import { Wallet } from "@/app/features/web3/components/wallet";
+import { Wallet } from "@/app/features/web3-adapter/components/wallet";
 
 const Header = () => {
   return (

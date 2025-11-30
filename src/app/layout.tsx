@@ -6,8 +6,8 @@ import { headers } from "next/headers";
 import { cookieToInitialState } from "wagmi";
 
 import { Header } from "./_navigation/header";
-import { Providers } from "./components/web3/providers";
-import { getConfig } from "./components/web3/wagmi";
+import { Providers } from "./components/web3-adapter/providers";
+import { getConfig } from "./components/web3-adapter/wagmi";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
